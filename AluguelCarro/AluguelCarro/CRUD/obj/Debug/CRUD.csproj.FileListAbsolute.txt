@@ -142,3 +142,4 @@ C:\Users\lucas\Desktop\AluguelCarroBACKUP\AluguelCarro\CRUD\obj\Debug\CRUD.cspro
 C:\Users\lucas\Desktop\AluguelCarroBACKUP\AluguelCarro\CRUD\obj\Debug\CRUD.csproj.CopyComplete
 C:\Users\lucas\Desktop\AluguelCarroBACKUP\AluguelCarro\CRUD\obj\Debug\CRUD.exe
 C:\Users\lucas\Desktop\AluguelCarroBACKUP\AluguelCarro\CRUD\obj\Debug\CRUD.pdb
+C:\Users\Gamer\Desktop\AluguelCarro\AluguelCarro\CRUD\obj\Debug\CRUD.Form2.resources

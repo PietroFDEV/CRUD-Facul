@@ -18,7 +18,7 @@ namespace CRUD
         public Form7()
         {
             InitializeComponent();
-
+            button1.Enabled = false;
         }
 
 
@@ -153,7 +153,7 @@ namespace CRUD
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (textBox3.Value >= 18)
+            if (textBox3.Value >= 21)
             {
                 Pessoa umaPessoa = fetchDadosPessoa();
                 string csvPessoa = umaPessoa.getCSV();
@@ -165,7 +165,7 @@ namespace CRUD
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show("Para alugar um carro é necessário ser maior de 18 anos!");
+                System.Windows.Forms.MessageBox.Show("Para alugar um carro é necessário ser maior de 21 anos!");
             }
         }
 
@@ -182,6 +182,13 @@ namespace CRUD
         private void txtSandero_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 aceita = new Form2();
+            aceita.ShowDialog();
+            button1.Enabled = true;
         }
     } 
 }
